@@ -828,7 +828,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground"> Phone</div>
-                    <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                    <div className="text-muted-foreground">+234 (091) 541 725 70</div>
                   </div>
                 </div>
 
