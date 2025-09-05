@@ -903,12 +903,13 @@ export default function Home() {
         href="https://wa.me/+2349154172570"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 p-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+        className="fixed bottom-6 right-6 z-50 bg-green-300 hover:bg-green-600 p-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
       >
         <img
           src="https://imgs.search.brave.com/1tdHoO38OZcsoto1OsdOQfaJT5yvjTWjmNDMNjfcpis/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDUvTG9nby1XaGF0/c0FwcC03MDB4Mzk0/LnBuZw"
           alt="WhatsApp"
           className="w-14 h-8"
+          
           onError={(e) => {
   e.currentTarget.style.display = "none";
   const sibling = e.currentTarget.nextElementSibling;
