@@ -292,7 +292,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="bg-white text-[#FF8CA2] hover:bg-white/90 font-medium px-8 py-4 text-lg group">
-              Start Your Project
+              <a href="#contact">Start Your Project </a>
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -300,7 +300,7 @@ export default function Home() {
               size="lg"
               className="font-medium px-8 py-4 text-lg border-2 border-white/30 text-white hover:bg-white/10 bg-transparent"
             >
-              View Our Work
+              <a href="#projects">View Our Work</a>
             </Button>
           </div>
         </div>
@@ -431,7 +431,7 @@ export default function Home() {
       <section id="portfolio" className="py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" id="projects">Featured Projects</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Discover some of our recent work and the innovative solutions we've delivered for our clients.
             </p>
@@ -714,7 +714,7 @@ export default function Home() {
 
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
+              <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2" id="contact">
                 <Send className="w-6 h-6 text-accent" />
                 Send us a message
               </h3>
